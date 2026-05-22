@@ -1,0 +1,180 @@
+#header{
+  margin-left: 80px;
+  margin-bottom: 30px;
+  color: rgb(109, 107, 107);
+  margin-top: -29px;
+}nav{
+  margin-left: 32%;
+  margin-top: -150px;
+}
+#navItem1{
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 25px;
+  font-family:  Helvetica, sans-serif;
+  color: rgb(86, 82, 82);
+}#navItem2{
+  font-size: 25px;
+  margin-left: -40px;
+  color: rgb(86, 82, 82);
+}nav2{
+  padding: 100px;
+  margin-: 40px;
+}.lifeline{
+  margin-left: 550px;
+  margin-top: 250px;
+}
+/* label,span{
+  display: flex;
+}span{ */
+  /* color: red; */
+  /* font-size: 12px;} */
+/* }form{
+  width: 400px;
+  height: 300px;
+  padding: 40px;
+  margin-left: 60%;
+}input{
+  border: none;
+  border-bottom: 2px solid rgb(68, 67, 67);
+  width: 290px;
+  outline: none;
+  margin: 10px 0px 10px 0px;
+}*/
+  #signup{
+  padding: 10px;
+  width: 100px;
+  background:linear-gradient(60deg, rgb(200, 0, 255) 40%, rgb(78, 0, 134) 80%);
+  border-radius: 15px;
+  font-weight: bold;
+  margin-left: 70%;
+  border: none;
+  margin-top: 0px;
+}#signup:hover{
+  background:linear-gradient(60deg, rgb(78, 0, 134) 50%, rgb(167, 47, 200) 70%);
+  transition: 300ms;
+  box-shadow: 6px 4px 10px rgb(120, 118, 118);
+}p{
+  font-size: 12px;
+  margin-left: 840px;
+  margin-top: -30px;
+}a{
+  text-decoration: none;
+}#loginform{
+  margin-left: 60%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#loginButton{
+  padding: 10px;
+  width: 100px;
+  background:linear-gradient(60deg, rgb(200, 0, 255) 40%, rgb(78, 0, 134) 80%);
+  border-radius: 15px;
+  font-weight: bold;
+  margin-left: 70%;
+  border: none;
+}#loginHeader{
+  margin-left: 70%;
+  margin-bottom: 30px;
+  color: rgb(109, 107, 107);
+  margin-top: 0px;
+}/*
+#changeButton{
+  padding: 10px;
+  width: 100px;
+  background:linear-gradient(60deg, rgb(90, 87, 91) 40%, rgb(193, 125, 241) 80%);
+  border-radius: 15px;
+  font-weight: bold;
+  margin-left: 45%;
+  border: none;
+}#changeButton:hover{
+  box-shadow: 6px 4px 10px rgb(120, 118, 118);
+  transition: 300ms;
+}*/
+  .products{
+  display: flex;
+  flex-wrap: wrap;
+  width: 95vw;
+  z-index: -1;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}.product{
+  flex-grow: 1;
+  margin-left: 40px;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-snap-type: y mandatory;
+  background: #fff;
+}
+/* 
+.img-container {
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.img-container > div {
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  background: #f5f5f5;
+  overflow: hidden;
+}
+
+.img-container img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+} */
+
+.img-container h2 {
+  color: #ff6600; /* You can use var(--accent) if using CSS variables */
+  margin: 0;
+  font-family: "Azeret Mono", monospace;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -3px;
+  line-height: 1.2;
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 25px);
+  left: calc(50% + 120px);
+}
+.gif{
+  width: 50%;
+  margin-top: -70px;
+  margin-left: 600px;
+  display: block;
+}
+/* .progress {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: #ff6600;
+  bottom: 50px;
+  transform: scaleX(0);
+  transform-origin: left; */
+#welcome{
+  font-size: 150px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  color: #281f46;
+  top: 50%;
+  font-family: "Quicksand", sans-serif;
+  position: absolute;
+  font-weight: 900;
+  text-align: center;
+}.product-header{
+  margin: 0px 60px 30px;
+}
