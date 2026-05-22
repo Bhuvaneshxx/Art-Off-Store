@@ -2,30 +2,30 @@ import './App.css'
 import WelcomePage from './assets/Components/WelcomePage'
 import SignUp from './assets/Components/SignUp'
 import Login from './assets/Components/Login'
-import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom"
+import { HashRouter, Routes, Route } from "react-router-dom";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import ProductList from './assets/Components/ProductList'
 import NotFound from './assets/Components/NotFound'
 import NewProduct from './assets/CustomeHook/NewProduct'
 import UpdateProduct from './assets/Components/UpdateProduct'
 import Wishlist from './assets/Components/Wishlist'
+
 function App() {
 
   return (
     <div>
-    <Router>
-    
-      <Routes>
-        <Route path="/" element={<WelcomePage/>}/>
-        {/* <Route path="/signUp" element={<SignUp/>}/>
-        <Route path="/login" element={<Login/>}/> */}
-        <Route path="/productlist" element={<ProductList/>}/>
-        <Route path="/newproduct" element={<NewProduct/>}/>
-        <Route path="/update/:id" element={<UpdateProduct/>}/>
-        <Route path="/wishlist" element={<Wishlist/>}/>
-        <Route path="*" element={<NotFound/>}/>
-      </Routes>
-    </Router>
+      <HashRouter>
+
+        <Routes>
+          <Route path="/" element={<WelcomePage/>}/>
+          <Route path="/productlist" element={<ProductList/>}/>
+          <Route path="/newproduct" element={<NewProduct/>}/>
+          <Route path="/update/:id" element={<UpdateProduct/>}/>
+          <Route path="/wishlist" element={<Wishlist/>}/>
+          <Route path="*" element={<NotFound/>}/>
+        </Routes>
+
+      </HashRouter>
     </div>
   )
 }
