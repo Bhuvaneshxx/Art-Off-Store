@@ -40,7 +40,7 @@ let [newproduct,setNewProduct]=useState({
     }
     let handleAdd=(e)=>{
         e.preventDefault()
-        fetch("http://localhost:4000/product",{
+        fetch("https://art-off-backend.onrender.com/product",{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"

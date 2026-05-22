@@ -30,9 +30,9 @@ function ProductList(){
     // },[])
 
     
-    let {products,error,isLoading,setProducts}=UseFetch("http://localhost:4000/product")
+    let {products,error,isLoading,setProducts}=UseFetch("https://art-off-backend.onrender.com/product")
     let handleDelelte=(id)=>{
-        axios.delete(`http://localhost:4000/product/${id}`)
+        axios.delete(`https://art-off-backend.onrender.com/product/${id}`)
         .then(()=>{
             alert("data deleted Successfully")
             let newProductList=products.filter(product=>product.id!==id)

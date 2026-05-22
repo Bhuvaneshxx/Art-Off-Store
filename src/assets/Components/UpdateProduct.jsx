@@ -12,7 +12,7 @@ let [updateProduct,setUpdateProduct]=useState(null)
 let {id}=useParams();
 let navigate=useNavigate()
 useEffect(()=>{
-    axios.get(`http://localhost:4000/product/${id}`)
+    axios.get(`https://art-off-backend.onrender.com/product/${id}`)
     .then(res=>setUpdateProduct(res.data)
     )
 },[])
@@ -40,7 +40,7 @@ let handleChange=(e)=>{
     }
     let handleSave=(e)=>{
         e.preventDefault()
-        fetch(`http://localhost:4000/product/${id}`,{
+        fetch(`https://art-off-backend.onrender.com/product/${id}`,{
             method:"PUT",
             headers:{
                 "Content-Type":"application/json"
